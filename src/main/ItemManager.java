@@ -23,13 +23,16 @@ public class ItemManager {
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         meta.setUnbreakable(true);
         List<String> lore=new ArrayList<>();
-        lore.add("§9DMG(+10) Manna(+10) Terra (+5)");
+        lore.add("§9Damage(+10)");
+        lore.add("Manna(+10)");
+        lore.add("Terra(+10)");
         lore.add("§7An utter peice of garbage.");
         lore.add("§7        -Gorlock Greatsword");
         lore.add("");
         lore.add("");
         lore.add("§a§lUncommon");
         meta.setLore(lore);
+        item.setItemMeta(meta);
         rookiewand=item;
     }
 }
