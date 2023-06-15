@@ -1,4 +1,0 @@
-name: HallowCraft
-version: '${version}'
-main: me.hallowcraft.HallowCraft
-api-version: 1.20
