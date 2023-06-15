@@ -1,0 +1,8 @@
+name: HallowCraft
+version: 1
+main: me.hallowcraft.HallowCraft
+api-version: 1.19
+commands:
+  giveitem:
+    description: gives a player a custom item
+    permission: hallow.admin
